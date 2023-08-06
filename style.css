@@ -1,0 +1,104 @@
+/* CSS Style */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+#app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.post {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-content {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.like-button {
+  cursor: pointer;
+  color: #00f;
+}
+
+.comment-section {
+  margin-top: 10px;
+}
+
+.comment {
+  font-size: 14px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  border-left: 2px solid #00f;
+}
+
+.follow-button,
+.unfollow-button {
+  cursor: pointer;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+.follow-button {
+  background-color: #00f;
+}
+
+.unfollow-button {
+  background-color: #f00;
+}
+
+.follow-button:hover,
+.unfollow-button:hover {
+  background-color: #005eff;
+}
+
+.following {
+  background-color: #00f;
+  padding: 2px 8px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 5px;
+}
